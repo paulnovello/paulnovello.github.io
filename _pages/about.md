@@ -6,7 +6,7 @@ subtitle: <a href='#'>ML Research Engineer</a>, DEEL Team, IRT Saint Exupery, To
 
 profile:
   align: right
-  image: prof_pic.jpg 
+  image: prof_pic_paul.jpg 
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Myself 10 years ago.</p>
