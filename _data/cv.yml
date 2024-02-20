@@ -2,96 +2,125 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Paul Novello
     - name: Date of Birth
-      value: 14th March 1879
+      value: 24/07/1994
+    - name: Phone
+      value: +33 6 28 34 35 58
+    - name: email
+      value: paul.novello@outlook.fr
     - name: Languages
-      value: English, German
+      value: English, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Applied Mathematics
+      institution: Ecole Polytechnique, French Alternative Energies and Atomic Energy Commission (CEA) CESTA, INRIA Saclay, France
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Combining supervised deep learning and scientific computing: some contributions and application to computational fluid dynamics. Significant works:"
+    - title: MSc, Statistics
+      institution: Imperial College, London, UK
+      year: 2017 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Specialization in Machine Learning and Computational Statistics
+        - title:  "Master Thesis on Unsupervised Deep Learning with application to:"
+          contents: 
+            - "Unsupervised representations of the concept of counting from images using Autoencoders and Generative Adversarial Networks (GAN)"
+            - "Evaluation of randomness in artificial dynamics such as cellular automata using Recurrent Neural Networks (RNN)."
+    - title: Diplôme d'Ingénieur
+      institution: Télécom ParisTech, Paris, France
+      year: 2014 - 2018
+      description:
+        - Major in Statistical Modeling and Scientific Computing, Signal Processing.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: ML Research Engineer 
+      institution: IRT Saint Exupery, France
+      year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Core member of the DEEL Team, a research initiative focused on trustworthy AI => <a href="https://www.deel.ai/">Deel homepage</a>. 
+        - title: Lead of the Out-Of-Distribution (OOD) detection research project  
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Collaboration with academics (MILA) and industrials (Airbus and Renault)
+            - Lead developer of <a href="https://github.com/deel-ai/oodeel">Oodeel</a>, an open-source library for post-hoc OOD detection on pre-trained Pytorch and Tensorflow deep neural networks.
+            - One Class Classification using Lipschitz Neural Networks. <b>ICML 2023</b>.
+            - Combining OOD and Conformal Prediction (CP) (preprint)
+            - Anomaly Detection using Diffusion models
+            - "<b>Ongoing projects:</b> <br> 
+              OOD for Object Detection and Segmentation <br>
+              Anomaly Detection with Self-Supervised Learning (SSL) <br>
+              Decomposition of neural network's feature space for OOD <br> 
+              OOD score ensembling..."
+        - title: Research on XAI
+          contents:
+            - Attribution method for XAI in Image Classification and Object Detection using Hilbert-Schmidt Independence Criterion (HSIC). <b>NeurIPS 2022</b>. Implemented the method in <a href="https://github.com/deel-ai/xplique">Xplique</a>, a Neural Networks Explainability Toolbox.
+            - Unlocking Feature Visualization for Deep Network with MAgnitude Constrained Optimization. <b>NeurIPS 2023</b>.
+        - title: 3D prediction of pollutant diffusion in urban areas
+          contents:
+            - Used Fourier Neural Operators (FNO) as Surrogate models for the prediction of pollutant diffusion in 3D meshes of urban areas, extending the 2D model of <a href="https://www.sciencedirect.com/science/article/abs/pii/S1364815222000937">Mendil et al.</a> that was based Multi-Layer Perceptrons (MLP). Joint work with The French Alternative Energies and Atomic Energy Commission (CEA).
+        - Finding instance-dependent approximation guarantees for scientific machine learning using Lipschitz neural networks. Supervised a group of 3 PhD candidates during the <a href="http://smai.emath.fr/cemracs/cemracs23/">CEMRACS</a> hackathon. Project still ongoing.
+
+    - title: PhD Candidate
+      institution: Ecole Polytechnique, French Alternative Energies and Atomic Energy Commission (CEA) CESTA, INRIA Saclay, France
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - title: "Combining supervised deep learning and scientific computing: some contributions and application to computational fluid dynamics. Significant works:"
+          contents:
+            - "Leveraging local variation in data: sampling and weighting schemes for supervised deep learning. <br> 
+               \U0001F4DA Published in the <b>Journal of Machine Learning for Modeling and Computing</b>. Short version at <b>NeurIPS's Second Workshop on Machine Learning and the Physical Sciences</b>.<br> 
+               \U0001F527 <b>Software used:</b> Tensorflow"
+            - "Goal-oriented sensitivity analysis of hyperparameters in deep learning. <br> 
+               \U0001F4DA Published in the <b>Journal of Scientific Computing</b><br> 
+               \U0001F527 <b>Software used:</b> Tensorflow, Slurm (conducted hyperparameter optimization on 400 GPUs on CEA's private cluster)"
+            - "An analogy between solving Partial Differential Equations with Monte-Carlo schemes and the Optimisation process in Machine Learning (and a few illustrations of its benefits). <br> 
+               \U0001F4DA Chapter of <b>PhD manuscript</b><br> 
+               \U0001F527 <b>Software used:</b> Jax"
+            - "Accelerating hypersonic reentry simulations using deep learning-based hybridization (with guarantees) <br> 
+               \U0001F4DA Published in the <b>Journal of Computational Physics</b><br> 
+               \U0001F527 <b>Software used:</b> Tensorflow, Tensorflow C api, C++, Fortran: Embedded of a Multi-Layer Perceptron (MLP) trained in tensorﬂow in a real-world Fortran/C++ simulation code using Tensorﬂow C++ API. Modiﬁcation of the original Fortran C++ code to leverage neural network’s vectorization"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Data scientist
+      institution: Intento>
+      year: 2017 - 2018
       description:
+      - title: First as intern, then remote while I was at Imperial College London (has been though...).
+        contents:
+          - "Implementation of data analysis algorithms: website visitor's fidelity scoring, visitor's profile clustering and classification based on their navigation path, using TraMineR a Genomics sequence clustering package in R."
+          - Contribution to a server built with Flask, automatically processing MariaDB visitor databases from client websites.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: <a href="https://github.com/deel-ai/oodeel">Oodeel</a> (lead developer)
+      year: 2023-now
+      description: A Simple, compact, and hackable post-hoc deep OOD detection for already trained tensorflow or pytorch image classifiers.
+    - title: <a href="https://github.com/deel-ai/xplique">Xplique</a> (contributor)
+      year: 2023-now
+      description: A Neural Networks Explainability Toolbox
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Trustworthy AI
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - OOD Detection
+        - XAI
+        - Robustness
+    - title: Scientific Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Hybridization between AI and classical Numerical solvers
+        - Approximation guarantees
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Sports: climbing, hiking, tennis"
+    - Indie rock, contemporary jazz and techno music. I'm working towards confidently participating in jam sessions with my bass.   
+    - Reading and watching about non-mathematical sciences, economy, geopolitics ...
+    - Got married in Sep. 2020, despite Covid19 !
+    - Permis B

@@ -1,85 +1,116 @@
----
----
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+###################################################
+
+
+@inproceedings{novello2019taylor,
+  abstract  = {Machine Learning (ML) is increasingly used to construct surrogate models for physical simulations. We take advantage of the ability to generate data using numerical simulations programs to train ML models better and achieve accuracy gain with no performance cost. We elaborate a new data sampling scheme based on Taylor approximation to reduce the error of a Deep Neural Network (DNN) when learning the solution of an ordinary differential equations (ODE) system.},
+  title     = {A Taylor Based Sampling Scheme for Machine Learning in Computational Physics},
+  author    = {Novello, Paul and Po{\"e}tte, Ga{\"e}l and Lugato, David and Congedo, Pietro},
+  booktitle = {NeurIPS Second Workshop on Machine Learning and the Physical Sciences},
+  year      = {2019},
+  arxiv     = {2101.11105}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{poette2021analogy,
+  abstract = {In this document, we revisit classical Machine Learning (ML) notions and algorithms under the point of view of the numerician, i.e. the one who is interested in the resolution of partial differential equations (PDEs). The document provides an original and illustrated state-of-theart of ML errors and ML optimisers. The main aim of the document is to help people familiar with the numerical resolution of PDEs understanding how the most classical machine learning (ML) algorithms are built. It also helps understanding their limitations and how they must be used for efficiency. The basic desired properties of ML algorithms are stated and illustrated. An original (PDE based) framework built in order to revisit classical ML algorithms and to design some new ones is suggested, tested and gives interesting results. Several classical ML algorithms are rewritten, reinterpreted in this PDE framework, some original algorithms are built from this same framework. The document highlights and justifies an analogy between ML frameworks (such as TensorFlow, PyTorch, SciKitLearn etc.) and Monte-Carlo (MC) codes used in computational physics: ML frameworks can be viewed as instrumented MC codes solving a parabolic PDE with (well identified) modeling assumptions. Finally, an analogy with transport and diffusion is made: improvements of classical optimisers are highlighted, new optimisers are constructed and applied on simple examples. The results are statistically significative and promising enough for counting the design of new transport based ML algorithms amongst the perspectives of this work.},
+  title    = {An analogy between solving Partial Differential Equations with Monte-Carlo schemes and the Optimisation process in Machine Learning (and few illustrations of its benefits)},
+  author   = {Po{\"e}tte, Ga{\"e}l and Lugato, David and Novello, Paul},
+  year     = {2021},
+  html     = {https://hal.science/hal-03184380v3}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
+@article{novello2022leveraging,
+  abstract    = {In the context of supervised learning of a function by a neural network, we claim and empirically verify that the neural network yields better results when the distribution of the data set focuses on regions where the function to learn is steep. We first traduce this assumption in a mathematically workable way using Taylor expansion and emphasize a new training distribution based on the derivatives of the function to learn. Then, theoretical derivations allow construction of a methodology that we call variance based samples weighting (VBSW). VBSW uses labels' local variance to weight the training points. This methodology is general, scalable, cost-effective, and significantly increases the performances of a large class of neural networks for various classification and regression tasks on image, text, and multivariate data. We highlight its benefits with experiments involving neural networks from linear models to ResNet and BERT.},
+  bibtex_show = {true},
+  title       = {Leveraging local variation in data: sampling and weighting schemes for supervised deep learning.},
+  author      = {Novello, Paul and Po{\"e}tte, G and Lugato, D and Congedo, PM},
+  journal     = {Journal of Machine Learning for Modeling and Computing},
+  volume      = {3},
+  number      = {1},
+  year        = {2022},
+  publisher   = {Begel House Inc.},
+  arxiv       = {2101.07561}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{novello2022making,
+  abstract    = {This paper presents a new efficient black-box attribution method built on Hilbert-Schmidt Independence Criterion (HSIC). Based on Reproducing Kernel Hilbert Spaces (RKHS), HSIC measures the dependence between regions of an input image and the output of a model using the kernel embedding of their distributions. It thus provides explanations enriched by RKHS representation capabilities. HSIC can be estimated very efficiently, significantly reducing the computational cost compared to other black-box attribution methods. Our experiments show that HSIC is up to 8 times faster than the previous best black-box attribution methods while being as faithful. Indeed, we improve or match the state-of-the-art of both black-box and white-box attribution methods for several fidelity metrics on Imagenet with various recent model architectures. Importantly, we show that these advances can be transposed to efficiently and faithfully explain object detection models such as YOLOv4. Finally, we extend the traditional attribution methods by proposing a new kernel enabling an ANOVA-like orthogonal decomposition of importance scores based on HSIC, allowing us to evaluate not only the importance of each image patch but also the importance of their pairwise interactions.},
+  bibtex_show = {true},
+  title       = {Making Sense of Dependence: Efficient Black-box Explanations Using Dependence Measure},
+  author      = {Novello, Paul and Fel, Thomas and Vigouroux, David},
+  journal     = {Advances in Neural Information Processing Systems (Neurips 2022)},
+  year        = {2022},
+  selected    = {true},
+  arxiv       = {2206.06219}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@phdthesis{novello2022combining,
+  abstract    = {Recent innovations in mathematics, computer science, and engineering have enabled more and more sophisticated numerical simulations. However, some simulations remain computationally unaffordable, even for the most powerful supercomputers. Lately, machine learning has proven its ability to improve the state-of-the-art in many fields, notoriously computer vision, language understanding, or robotics. This thesis settles in the high-stakes emerging field of Scientific Machine Learning which studies the application of machine learning to scientific computing. More specifically, we consider the use of deep learning to accelerate numerical simulations.We focus on approximating some components of Partial Differential Equation (PDE) based simulation software by a neural network. This idea boils down to constructing a data set, selecting and training a neural network, and embedding it into the original code, resulting in a hybrid numerical simulation. Although this approach may seem trivial at first glance, the context of numerical simulations comes with several challenges. Since we aim at accelerating codes, the first challenge is to find a trade-off between neural networks’ accuracy and execution time. The second challenge stems from the data-driven process of the training, and more specifically, its lack of mathematical guarantees. Hence, we have to ensure that the hybrid simulation software still yields reliable predictions. To tackle these challenges, we thoroughly study each step of the deep learning methodology while considering the aforementioned constraints. By doing so, we emphasize interplays between numerical simulations and machine learning that can benefit each of these fields.We identify the main steps of the deep learning methodology as the construction of the training data set, the choice of the hyperparameters of the neural network, and its training. For the first step, we leverage the ability to sample training data with the original software to characterize a more efficient training distribution based on the local variation of the function to approximate. We generalize this approach to general machine learning problems by deriving a data weighting methodology called Variance Based Sample Weighting. For the second step, we introduce the use of sensitivity analysis, an approach widely used in scientific computing, to tackle neural network hyperparameter optimization. This approach is based on qualitatively assessing the effect of hyperparameters on the performances of a neural network using Hilbert-Schmidt Independence Criterion. We adapt it to the hyperparameter optimization context and build an interpretable methodology that yields competitive and cost-effective networks. For the third step, we formally define an analogy between the stochastic resolution of PDEs and the optimization process at play when training a neural network. This analogy leads to a PDE-based framework for training neural networks that opens up many possibilities for improving existing optimization algorithms. Finally, we apply these contributions to a computational fluid dynamics simulation coupled with a multi-species chemical equilibrium code. We demonstrate that we can achieve a time factor acceleration of 21 with controlled to no degradation from the initial prediction.},
+  abbr        = {PhD manuscript},
+  bibtex_show = {true},
+  title       = {Combining supervised deep learning and scientific computing: some contributions and application to computational fluid dynamics},
+  author      = {Novello, Paul},
+  year        = {2022},
+  school      = {Ecole Polytechnique, Institut polytechnique de Paris},
+  html        = {https://theses.hal.science/tel-03710472}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{novello2024accelerating,
+  abstract    = {In this paper, we are interested in the acceleration of numerical simulations. We focus on a hypersonic planetary reentry problem whose simulation involves coupling fluid dynamics and chemical reactions. Simulating chemical reactions takes most of the computational time but, on the other hand, cannot be avoided to obtain accurate predictions. We face a trade-off between cost-efficiency and accuracy: the numerical scheme has to be sufficiently efficient to be used in an operational context but accurate enough to predict the phenomenon faithfully. To tackle this trade-off, we design a hybrid numerical scheme coupling a traditional fluid dynamic solver with a neural network approximating the chemical reactions. We rely on their power in terms of accuracy and dimension reduction when applied in a big data context and on their efficiency stemming from their matrix-vector structure to achieve important acceleration factors (×10 to ×18.6). This paper aims to explain how we design such cost-effective hybrid numerical schemes in practice. Above all, we describe methodologies to ensure accuracy guarantees, allowing us to go beyond traditional surrogate modeling and to use these schemes as references.},
+  bibtex_show = {true},
+  title       = {Accelerating hypersonic reentry simulations using deep learning-based hybridization (with guarantees)},
+  author      = {Novello, Paul and Po{\"e}tte, Ga{\"e}l and Lugato, David and Peluchon, Simon and Congedo, Pietro Marco},
+  journal     = {Journal of Computational Physics},
+  volume      = {498},
+  pages       = {112700},
+  year        = {2024},
+  publisher   = {Academic Press},
+  selected    = {true},
+  arxiv       = {2209.13434}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{novello2023goal,
+  abstract    = {Tackling new machine learning problems with neural networks always means optimizing numerous hyperparameters that define their structure and strongly impact their performances. In this work, we study the use of goal-oriented sensitivity analysis, based on the Hilbert–Schmidt independence criterion (HSIC), for hyperparameter analysis and optimization. Hyperparameters live in spaces that are often complex and awkward. They can be of different natures (categorical, discrete, boolean, continuous), interact, and have inter-dependencies. All this makes it non-trivial to perform classical sensitivity analysis. We alleviate these difficulties to obtain a robust analysis index that is able to quantify hyperparameters’ relative impact on a neural network’s final error. This valuable tool allows us to better understand hyperparameters and to make hyperparameter optimization more interpretable. We illustrate the benefits of this knowledge in the context of hyperparameter optimization and derive an HSIC-based optimization algorithm that we apply on MNIST and Cifar, classical machine learning data sets, but also on the approximation of Runge function and Bateman equations solution, of interest for scientific machine learning. This method yields neural networks that are both competitive and cost-effective.},
+  bibtex_show = {true},
+  title       = {Goal-oriented sensitivity analysis of hyperparameters in deep learning},
+  author      = {Novello, Paul and Po{\"e}tte, Ga{\"e}l and Lugato, David and Congedo, Pietro Marco},
+  journal     = {Journal of Scientific Computing},
+  volume      = {94},
+  number      = {3},
+  pages       = {45},
+  year        = {2023},
+  publisher   = {Springer US New York},
+  selected    = {true},
+  arxiv       = {2207.06216}
+}
+
+@inproceedings{bethune2023robust,
+  abstract    = {We propose a new method, dubbed One Class Signed Distance Function (OCSDF), to perform One Class Classification (OCC) by provably learning the Signed Distance Function (SDF) to the boundary of the support of any distribution. The distance to the support can be interpreted as a normality score, and its approximation using 1-Lipschitz neural networks provides robustness bounds against l2 adversarial attacks, an under-explored weakness of deep learning-based OCC algorithms. As a result, OCSDF comes with a new metric, certified AUROC, that can be computed at the same cost as any classical AUROC. We show that OCSDF is competitive against concurrent methods on tabular and image data while being way more robust to adversarial attacks, illustrating its theoretical properties. Finally, as exploratory research perspectives, we theoretically and empirically show how OCSDF connects OCC with image generation and implicit neural surface parametrization.},
+  bibtex_show = {true},
+  title       = {Robust One-Class Classification with Signed Distance Function using 1-Lipschitz Neural Networks},
+  author      = {B{\'e}thune*, Louis and Novello*, Paul and Boissin, Thibaut and Coiffier, Guillaume and Serrurier, Mathieu and Vincenot, Quentin and Troya-Galvis, Andres},
+  booktitle   = {International Conference on Machine Learning (ICML 2023)},
+  year        = {2023},
+  arxiv       = {2303.01978}
+}
+
+@inproceedings{thomas2023unlocking,
+  abstract    = {Feature visualization has gained significant popularity as an explainability method, particularly after the influential work by Olah et al. in 2017. Despite its success, its widespread adoption has been limited due to issues in scaling to deeper neural networks and the reliance on tricks to generate interpretable images. Here, we describe MACO, a simple approach to address these shortcomings. It consists in optimizing solely an image's phase spectrum while keeping its magnitude constant to ensure that the generated explanations lie in the space of natural images. Our approach yields significantly better results -- both qualitatively and quantitatively -- unlocking efficient and interpretable feature visualizations for state-of-the-art neural networks. We also show that our approach exhibits an attribution mechanism allowing to augment feature visualizations with spatial importance. Furthermore, we enable quantitative evaluation of feature visualizations by introducing 3 metrics: transferability, plausibility, and alignment with natural images. We validate our method on various applications and we introduce a website featuring MACO visualizations for all classes of the ImageNet dataset, which will be made available upon acceptance. Overall, our study unlocks feature visualizations for the largest, state-of-the-art classification networks without resorting to any parametric prior image model, effectively advancing a field that has been stagnating since 2017 (Olah et al, 2017).},
+  bibtex_show = {true},
+  title       = {Unlocking Feature Visualization for Deep Network with MAgnitude Constrained Optimization},
+  author      = {Thomas, FEL and Boissin, Thibaut and Boutin, Victor and Picard, Agustin Martin and Novello, Paul and Colin, Julien and Linsley, Drew and ROUSSEAU, Tom and Cadene, Remi and Goetschalckx, Lore and others},
+  booktitle   = {Thirty-seventh Conference on Neural Information Processing Systems},
+  year        = {2023},
+  arxiv       = {2306.06805}
+}
+
+@article{elaraby2023grood,
+  abstract    = {Deep neural networks (DNNs) often fail silently with over-confident predictions on out-of-distribution (OOD) samples, posing risks in real-world deployments. Existing techniques predominantly emphasize either the feature representation space or the gradient norms computed with respect to DNN parameters, yet they overlook the intricate gradient distribution and the topology of classification regions. To address this gap, we introduce GRadient-aware Out-Of-Distribution detection in interpolated manifolds (GROOD), a novel framework that relies on the discriminative power of gradient space to distinguish between in-distribution (ID) and OOD samples. To build this space, GROOD relies on class prototypes together with a prototype that specifically captures OOD characteristics. Uniquely, our approach incorporates a targeted mix-up operation at an early intermediate layer of the DNN to refine the separation of gradient spaces between ID and OOD samples. We quantify OOD detection efficacy using the distance to the nearest neighbor gradients derived from the training set, yielding a robust OOD score. Experimental evaluations substantiate that the introduction of targeted input mix-upamplifies the separation between ID and OOD in the gradient space, yielding impressive results across diverse datasets. Notably, when benchmarked against ImageNet-1k, GROOD surpasses the established robustness of state-of-the-art baselines. Through this work, we establish the utility of leveraging gradient spaces and class prototypes for enhanced OOD detection for DNN in image classification.},
+  bibtex_show = {true},
+  title       = {GROOD: GRadient-aware Out-Of-Distribution detection in interpolated manifolds},
+  author      = {ElAraby, Mostafa and Sahoo, Sabyasachi and Pequignot, Yann and Novello, Paul and Paull, Liam},
+  journal     = {arXiv preprint arXiv:2312.14427},
+  year        = {2023},
+  arxiv       = {2312.14427}
 }

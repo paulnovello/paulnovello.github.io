@@ -1,0 +1,13 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "yaml",
+            "scheme": "file",
+            "pattern": "_data/cv.yml"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file"
+        }
+    ]
+}
