@@ -13,7 +13,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/prof_pic_paul_fav.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://paulnovello.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -326,12 +326,10 @@ enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
-# -----------------------------------------------------------------------------
-
 # These are the defaults
-#external_links:
-#  enabled: true
-#  rel: external nofollow noopener
+external_links:
+  enabled: true
+  rel: external nofollow noopener
   #target: _blank
   #exclude:
 
