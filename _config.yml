@@ -333,7 +333,7 @@ external_links:
   enabled: true
   rel: external nofollow noopener
   #target: _blank
-  exclude:
+  #exclude:
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
