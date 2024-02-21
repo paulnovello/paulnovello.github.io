@@ -1,6 +1,7 @@
 ---
 layout: page
 title: researchmap
+permalink: /researchmap/
 nav: true
 ---
 
