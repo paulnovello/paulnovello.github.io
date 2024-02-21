@@ -8,10 +8,14 @@ category: Roadmap
 display_categories: [Trustworthy AI, SciML]
 ---
 <div class="row l-page">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/octopus.png" title="octopus placeholder" class="img-fluid rounded z-depth-1" %}
-    </div>
+    <iframe
+    src="https://xmind.ai/share/vWsEhEqT?xid=uAlARt6C"
+    style="width:100%; height:1000px;"
+    ></iframe>
 </div>
+
+
+
 
 This is an octopus placeholder
 
