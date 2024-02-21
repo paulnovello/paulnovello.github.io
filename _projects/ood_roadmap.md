@@ -7,15 +7,11 @@ importance: 1
 category: Roadmap
 display_categories: [Trustworthy AI, SciML]
 ---
-<div class="row l-page">
+<div class="row"> 
     <iframe
     src="https://xmind.ai/share/vWsEhEqT?xid=uAlARt6C"
-    style="width:100%; height:1000px;"
+    style="width:100%; height:600px;"
     ></iframe>
 </div>
 
-
-
-
-This is an octopus placeholder
 
