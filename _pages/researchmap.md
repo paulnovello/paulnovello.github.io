@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: page
 img: assets/img/octopus.png
 title: Personnal Research Mindmap
 description: Past and current projects, and ideas that might turn into actual ones
