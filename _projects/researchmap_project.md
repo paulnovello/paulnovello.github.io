@@ -7,10 +7,6 @@ importance: 1
 category: Roadmap
 display_categories: [Trustworthy AI, SciML]
 ---
-# Personnal Research Mindmap 
-
-Past and current projects; ideas that might turn into actual ones.
-
 <div class="row"> 
     <iframe
     src="https://xmind.ai/share/vWsEhEqT?xid=uAlARt6C"
