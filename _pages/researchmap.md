@@ -5,7 +5,7 @@ title: Personnal Research Mindmap
 description: Past and current projects, and ideas that might turn into actual ones
 importance: 1
 category: Roadmap
-nav: True
+nav: true
 display_categories: [Trustworthy AI, SciML]
 ---
 <div class="row"> 
