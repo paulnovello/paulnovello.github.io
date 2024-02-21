@@ -1,11 +1,9 @@
 ---
 layout: page
-title: researchmap
+title: research map
 permalink: /researchmap/
 nav: true
----
-
-# Personnal Research Mindmap 
+--- 
 
 Past and current projects; ideas that might turn into actual ones.
 
