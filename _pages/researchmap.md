@@ -1,13 +1,14 @@
 ---
 layout: page
 img: assets/img/octopus.png
-title: Personnal Research Mindmap
-description: Past and current projects, and ideas that might turn into actual ones
-importance: 1
-category: Roadmap
+title: researchmap
 nav: true
-display_categories: [Trustworthy AI, SciML]
 ---
+
+# Personnal Research Mindmap 
+
+Past and current projects; ideas that might turn into actual ones.
+
 <div class="row"> 
     <iframe
     src="https://xmind.ai/share/vWsEhEqT?xid=uAlARt6C"
