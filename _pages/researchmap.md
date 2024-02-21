@@ -1,6 +1,5 @@
 ---
 layout: page
-img: assets/img/octopus.png
 title: researchmap
 nav: true
 ---
