@@ -8,10 +8,7 @@ category: Roadmap
 display_categories: [Trustworthy AI, SciML]
 ---
 <div class="row"> 
-    <iframe
-    src="https://xmind.ai/share/vWsEhEqT?xid=uAlARt6C"
-    style="width:100%; height:700px;"
-    ></iframe>
+    <iframe src="https://xmind.ai/embed/vWsEhEqT?sheet-id=88da8241ec38a4cfd6497bbf8d" width="100%" height="700px" frameborder="0" scrolling="no" allow="fullscreen"></iframe>
 </div>
 
 
