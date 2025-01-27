@@ -11,7 +11,7 @@ Since the beginning of my PhD, I had the opportunity to give several external ta
 ---
 
 * **2024**: 
-    * ANITI
+    * ANITI days [link](https://www.linkedin.com/posts/aniti-toulouse_un-grand-succ%C3%A8s-pour-l%C3%A9dition-2024-des-activity-7268296799373639680-dhyu?utm_source=share&utm_medium=member_desktop)
     * Algorithmy conference [link](https://www.math.sk/alg2024/)
 * **2023**: 
     * GDR Mascotnum workshop on Physics Informed ML [link](https://www.gdr-mascotnum.fr/dec23.html)

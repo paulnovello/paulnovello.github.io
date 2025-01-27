@@ -42,13 +42,16 @@
       institution: IRT Saint Exupery, France
       year: 2022 - present
       description:
+        - Coordination (as scientific leader) of the creation of a research program on AI for Simulation in Artificial and Natural Intelligence Toulouse Institute (ANITI), gathering both academics (IRIT, Supaero, IMT) and industrials (Airbus, Liebherr, Schaeffler).
         - Core member of the DEEL Team, a research initiative focused on trustworthy AI => <a href="https://www.deel.ai/">Deel homepage</a>. 
         - title: Lead of the Out-Of-Distribution (OOD) detection research project  
           contents:
             - Collaboration with academics (MILA) and industrials (Airbus and Renault)
             - Lead developer of <a href="https://github.com/deel-ai/oodeel">Oodeel</a>, an open-source library for post-hoc OOD detection on pre-trained Pytorch and Tensorflow deep neural networks.
             - One Class Classification using Lipschitz Neural Networks. <b>ICML 2023</b>.
-            - Combining OOD and Conformal Prediction (CP) (preprint)
+            - Improving Out-of-Distribution Detection by Combining Post-hoc Detectors (preprint)
+            - Exploring the Link Between Out-of-Distribution Detection and Conformal Prediction with Illustrations of Its Benefits (submitted to Transactions on Machine Learning Research)
+            - Instance-dependent Approximation Guarantees for Lipschitz Approximators, Application to Scientific Machine Learning (submitted to Transactions on Machine Learning Research)
             - Anomaly Detection using Diffusion models
             - "<b>Ongoing projects:</b> <br> 
               OOD for Object Detection and Segmentation <br>
