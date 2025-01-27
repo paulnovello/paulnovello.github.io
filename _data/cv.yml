@@ -66,6 +66,7 @@
           contents:
             - Used Fourier Neural Operators (FNO) as Surrogate models for the prediction of pollutant diffusion in 3D meshes of urban areas, extending the 2D model of <a href="https://www.sciencedirect.com/science/article/abs/pii/S1364815222000937">Mendil et al.</a> that was based Multi-Layer Perceptrons (MLP). Joint work with The French Alternative Energies and Atomic Energy Commission (CEA).
         - Finding instance-dependent approximation guarantees for scientific machine learning using Lipschitz neural networks. Supervised a group of 3 PhD candidates during the <a href="http://smai.emath.fr/cemracs/cemracs23/">CEMRACS</a> hackathon. Project still ongoing.
+        - title: Reviewer for NeurIPS, ICLR, ICML, CVPR
 
     - title: PhD Candidate
       institution: Ecole Polytechnique, French Alternative Energies and Atomic Energy Commission (CEA) CESTA, INRIA Saclay, France
